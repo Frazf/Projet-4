@@ -1,0 +1,14 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Mon projet Openclassrooms 4 Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch style.scss:style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
