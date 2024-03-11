@@ -36,6 +36,7 @@ header img {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 3rem;
   background-color: #EAEAEA;
 }
 .header__ensemble input {
@@ -663,6 +664,25 @@ footer .footer__logo {
   }
   .carte__4 {
     margin-top: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  footer .footer__ensemble {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .footer__ensemble .footer__icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  footer .footer__ensemble .footer__lois {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 
