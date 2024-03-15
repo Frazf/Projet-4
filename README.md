@@ -1,5 +1,4 @@
 # Ohmyfoodproject
-Plateforme web innivante qui répertorie les menus de restaurants gastronomiques a Paris.Les clients peuvent non seulement consulter les menus, mais aussi composer leur repas à l'avance pour éviter les temps d'attente au restaurant.
-
-Ce projet a été développé en suivant le principe du "mobile first" pour garantir une expérience utilisateur obtimale sur tous les appareils, y compris mobiles, tablettes et destops. 
-il intègre également des animations pour rendre l'expérience utilisateur plus dynamique et engageante.
+Une plateforme web révolutionnaire rassemble les menus des restaurants gastronomiques parisiens. 
+Les clients peuvent non seulement parcourir les menus, mais aussi précomposer leurs repas pour éviter les longues attentes au restaurant. 
+Ce projet a été conçu selon la philosophie du "mobile first" afin d'assurer une expérience utilisateur optimale sur tous les appareils, incluant les smartphones, tablettes et ordinateurs de bureau. De plus, il intègre des animations pour rendre l'interaction plus fluide et captivante.
