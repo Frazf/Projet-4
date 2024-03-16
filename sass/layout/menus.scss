@@ -3,20 +3,16 @@
 @import "../utils/mixins.scss";
 
 .menus {
-    padding: 20px 130px 0px 130px;
     background-color: #F6F6F6;
 }
 
-.menus__carte {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    .carte--img {
-        object-fit: cover;
-        width: 100%;
-        height: 15rem;
-        border-radius: 15px 15px 0px 0px;
-    }
+
+.carte--img {
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+    border-radius: 15px 15px 0px 0px;
+}
 .carte__new {
     position: relative;
 }
@@ -31,8 +27,7 @@
     place-items: center;
     right: 1rem;
     top: 1rem;
-    }
-}  
+} 
 
 .carte__text {
     background-color: white;

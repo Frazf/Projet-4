@@ -8,14 +8,12 @@
     text-align: center;
     background-color: #F6F6F6;
     padding-bottom: 3%;
-    & h1 {
-        font-size: 40px;    
+    
+    & h2 {
+        font-size: 18px;
+        font-weight: 300;
     }
-        & h2 {
-            font-size: 18px;
-            font-weight: 300;
-        }
-        & button {
-            @include button-gradient
-        }
+    & button {
+        @include button-gradient
     }
+}

@@ -1,14 +1,14 @@
-@import "./sass/base.scss";
-@import "./sass/layout/header.scss";
-@import "./sass/layout/footer.scss";
-@import "./sass/utils/colors.scss";
-@import "./sass/utils/mixins.scss";
-@import "./sass/utils/animations.scss";
-@import "./sass/layout/loader.scss";
-@import "./sass/layout/menus.scss";
-@import "./sass/layout/restaurants.scss";
-@import "./sass/layout/intro.scss";
-@import "./sass/layout/choix.scss";
+@import "./utils/base.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./utils/colors.scss";
+@import "./utils/mixins.scss";
+@import "./utils/animations.scss";
+@import "./layout/loader.scss";
+@import "./layout/menus.scss";
+@import "./layout/restaurants.scss";
+@import "./layout/intro.scss";
+@import "./layout/choix.scss";
 
 
 
@@ -47,7 +47,7 @@
 .menus__carte {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 18px;
 }
 .carte__3 {
     margin-top: 0;
@@ -65,12 +65,8 @@
 }
 .menu__title {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: -4%;
-    & h1 {
-        margin-right: 15%;
-        margin-left: 2%;
-    }
 }
 footer {
     display: flex;
@@ -100,7 +96,6 @@ footer {
     margin-bottom: -23px;
         .ustensils {
             margin-right: 6px;
-
         }
     }
 .handshake {
@@ -114,6 +109,9 @@ footer {
 
 
 @media (min-width: 1024px) {
+    .intro .intro__title--1 {
+        font-size: 40px;
+    }
     .choix {
         margin: 3vh 3vh;
         padding: 0 5rem;
@@ -132,9 +130,6 @@ footer {
             margin-left: 10%;
         }
     }
-    .button__princ i {
-        margin-right: 0%;
-    }
     .button__numero {
         top: 1.5rem;
         left: 0;
@@ -142,9 +137,13 @@ footer {
     .menus {
         padding: 1rem 7rem;
     }
+    .menu__title {
+        display: flex;
+        justify-content: center;
+    }
     .menus__carte {
         grid-template-columns: 1fr 1fr;
-        gap: 70px;
+        gap: 50px;
     }
     .menu__carte {
         width: 80%;

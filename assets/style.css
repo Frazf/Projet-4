@@ -59,27 +59,12 @@ header img {
 footer {
   background-color: #353535;
   color: white;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
   padding: 30px 25px 30px 25px;
 }
-footer .footer__ensemble {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: flex-end;
-}
-footer .footer__ensemble .footer__icon {
+footer .footer__icon {
   margin-right: 31px;
-  display: flex;
-  gap: 15px;
-  align-items: baseline;
 }
-footer .footer__ensemble .footer__icon .icon__1 {
-  flex-direction: row;
-  display: flex;
-  align-items: baseline;
+footer .footer__icon .icon__1 {
   gap: 15px;
 }
 
@@ -88,10 +73,8 @@ footer .footer__ensemble .footer__icon .icon__1 {
 }
 
 .footer__lois {
-  display: flex;
   align-items: baseline;
   margin-right: 96px;
-  gap: 15px;
 }
 
 .contact {
@@ -175,25 +158,21 @@ footer .footer__ensemble .footer__icon .icon__1 {
   }
 }
 .menus {
-  padding: 20px 130px 0px 130px;
   background-color: #F6F6F6;
 }
 
-.menus__carte {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-}
-.menus__carte .carte--img {
+.carte--img {
   object-fit: cover;
   width: 100%;
   height: 15rem;
   border-radius: 15px 15px 0px 0px;
 }
-.menus__carte .carte__new {
+
+.carte__new {
   position: relative;
 }
-.menus__carte .carte__new::before {
+
+.carte__new::before {
   content: "Nouveau";
   position: absolute;
   height: 2rem;
@@ -265,7 +244,7 @@ footer .footer__ensemble .footer__icon .icon__1 {
   background-color: #F6F6F6;
   position: relative;
   margin-top: -40px;
-  padding: 10px;
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,9 +419,6 @@ footer .footer__ensemble .footer__icon .icon__1 {
   background-color: #F6F6F6;
   padding-bottom: 3%;
 }
-.intro h1 {
-  font-size: 40px;
-}
 .intro h2 {
   font-size: 18px;
   font-weight: 300;
@@ -470,15 +446,9 @@ footer .footer__ensemble .footer__icon .icon__1 {
   padding: 3rem 2rem;
 }
 
-.choix__button {
-  display: flex;
-  flex-direction: row;
-}
-
 .button__princ {
   font-weight: 500;
   font-size: 16px;
-  width: 30%;
   height: 72px;
   border-radius: 20px;
   border-style: none;
@@ -506,7 +476,6 @@ footer .footer__ensemble .footer__icon .icon__1 {
   height: 24px;
   border-radius: 24px;
   position: relative;
-  top: 1.5rem;
   transform: translateX(50%);
   background-color: #9356DC;
   color: white;
@@ -555,7 +524,7 @@ footer .footer__ensemble .footer__icon .icon__1 {
 .menus__carte {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 18px;
 }
 
 .carte__3 {
@@ -577,12 +546,8 @@ footer .footer__ensemble .footer__icon .icon__1 {
 
 .menu__title {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: -4%;
-}
-.menu__title h1 {
-  margin-right: 15%;
-  margin-left: 2%;
 }
 
 footer {
@@ -626,6 +591,9 @@ footer .footer__logo {
 }
 
 @media (min-width: 1024px) {
+  .intro .intro__title--1 {
+    font-size: 40px;
+  }
   .choix {
     margin: 3vh 3vh;
     padding: 0 5rem;
@@ -644,9 +612,6 @@ footer .footer__logo {
   .restaurant .menu__nom {
     margin-left: 10%;
   }
-  .button__princ i {
-    margin-right: 0%;
-  }
   .button__numero {
     top: 1.5rem;
     left: 0;
@@ -654,9 +619,13 @@ footer .footer__logo {
   .menus {
     padding: 1rem 7rem;
   }
+  .menu__title {
+    display: flex;
+    justify-content: center;
+  }
   .menus__carte {
     grid-template-columns: 1fr 1fr;
-    gap: 70px;
+    gap: 50px;
   }
   .menu__carte {
     width: 80%;
